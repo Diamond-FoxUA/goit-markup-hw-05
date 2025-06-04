@@ -646,10 +646,6 @@ img {
     margin-bottom: 16px;
 }
 
-.modal-form-item {
-    margin-bottom: 16px;
-}
-
 .form-label {
     color: #8e8f99;
     font-weight: 400;
@@ -720,11 +716,15 @@ img {
     color: rgba(46, 47, 66, 0.4);
 } */
 
+.modal-form-item {
+    margin-bottom: 8px;
+}
+
 .modal-form-item:nth-child(4) {
     margin-bottom: 16px;
 }
 
-.modal-form-item:last-child {
+.modal-form-item:nth-child(5) {
     margin-bottom: 24px;
 }
 
